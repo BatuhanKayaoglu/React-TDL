@@ -53,6 +53,7 @@ function App() {
 
   return (
     <div className="App">
+<<<<<<< HEAD
       <header>
         <h1 className="">MY TODO LİST</h1>
         <Form inputText={inputText}
@@ -65,6 +66,24 @@ function App() {
           setTodos={setTodos}
           filteredTodos={filteredTodos} />
 
+=======
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+          Learn React
+          Learn React
+          Learn React
+        </a>
+>>>>>>> b36bf8b247c039b3bb68ad351e94f8fbea1899fb
       </header>
     </div>
   );
